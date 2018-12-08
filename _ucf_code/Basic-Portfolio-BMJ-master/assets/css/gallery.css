@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    color:#777;
+    background:#ddd;
+}
+
+header{
+    background: #ffffff;
+    border-bottom:1.5px solid #cccccc;
+}
+
+
+#header-container{
+    overflow: hidden;
+    width:70%;
+    min-width:960px;
+    margin: 0 auto; /*centers the container*/
+}
+
+footer{
+    height:40px;
+    border-top:10px solid #4aaaa5;
+    background:#666;
+    text-align: center;
+    color:#fff;
+    padding:8px 0 0;
+}
+
+#copy {
+    font-size:.75em;
+    color:#fff;
+    padding: 50px 0 10px;
+    text-align: center;
+}
+
+
+#links {
+    /*push the div containing the links to the right side of the container*/
+   float:right;
+   margin:0;
+   padding:0;
+   vertical-align: baseline;
+}
+#links li{
+   font-size:1.1em;
+   font-family: 'Georgia', Times, Times , serif;
+   float:right;
+   padding:24px 8px 0 0; 
+}
+
+#links a{
+   padding-left:8px;
+   text-decoration: none;
+   color:#777;
+}
+
+.bordered {
+   border-left:1px solid rgb(105, 95, 95);
+}
+
+#logo{
+   float:left;
+   background: #4aaaa5;
+   color:#ffffff;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#logo h1 {
+   /*use padding to center the name in the div */
+   font-family: 'Georgia', Times, Times, serif;
+   font-size: 3em;
+   padding:10px;
+   float:left;
+}
+
+
+#main-container{
+    min-height:70%;
+    width: 960px;
+    margin:20px auto;
+    padding:20px;
+    background:#fff;
+    border: 1px solid #dddddd;
+}
+
+h2{
+    font-size:2em;
+    padding-bottom:20px;
+    border-bottom:2px solid #ccc;
+    margin-bottom:20px;
+    color:#4aaaa5;
+}
+
+.box{
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 200px;
+    margin:20px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#b1{
+    background-image: url("../images/focus.jpg");
+}
+
+#b2{
+    background-image: url("../images/bird.jpg");
+}
+
+#b3{
+    background-image: url("../images/car-tire.jpg");
+}
+
+#b4{
+    background-image: url("../images/long-road.jpg");
+}
+
+#b5{
+    background-image: url("../images/logo_555x333.jpg");
+}
+
+.label{
+    background-color:rgb(134, 26, 26);
+    position: absolute;
+    bottom:15;
+    height:10%;
+    width:100%;
+    text-align: center;
+    padding:5px 0 5px;
+    color:#fff;
+}
+
+.clearfix:after{
+    content: ""; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}

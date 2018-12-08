@@ -1,0 +1,133 @@
+/*
+
+My replica of the Vice News website
+Jonathan Sells
+6/13/2018
+
+*/
+
+*{
+    margin:0;
+    padding:0;
+    background:#fff;
+}
+
+html {
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width:10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.clear-fix:after {
+    content:" ";
+    display:block;
+    clear:both;
+    visibility: hidden;
+}
+
+#container {
+    width:700px;
+    margin:0 auto;
+}
+
+#logo {
+    height:43;
+    width:292px;
+    float:left;
+    position:relative;
+    top:25px;
+    left:10px;
+ }
+
+#menu-icon {
+    height:18px;
+    widows: 18px;
+    float:right;
+    margin: 40px 30px 0 0;
+}
+
+.subscribe-button {
+    padding:5px;
+    background:#fff;
+    font-size: 14px;
+    float:right;
+    margin:35px 25px 0 0;
+    width:100px;
+    border-radius:4px;
+    border: solid 1px black;
+    text-transform:capitalize;
+}
+
+.subscribe-button:hover {
+    background:black;
+    color:white;
+}
+
+.header {
+    height:100px;
+    display:relative;
+    border-bottom: solid 1px black;
+}
+
+.widget-block {
+    float:left;
+    height:135px;
+}
+
+.widget {
+    float:left;
+    border-top: solid 1px #000;
+}
+
+.widget-img {
+    height:106px;
+    width:190px;
+    float:left;
+    display:block;
+    margin-right: 20px;
+}
+
+.widget.widget-text {
+    float:left;
+}
+
+.large-widget.widget-text {
+    float:left;
+  
+}
+
+.widget h2 {
+    font-style:none;
+    font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+    font-size:16px;
+    margin-bottom: 8px;
+    text-transform:uppercase;
+}
+
+.widget p {
+    font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+    font-size: 30px;
+    font-weight:nomral;
+}
+
+#newsletter {
+    border-top:solid 1px black;
+    width:700px;
+    height:270px;
+    border-bottom: solid 1px black;
+}
+
+#newsletter h3 {
+    font-size:30px;
+    font-weight:bolder;
+}

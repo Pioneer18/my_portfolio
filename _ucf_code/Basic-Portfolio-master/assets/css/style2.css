@@ -1,0 +1,122 @@
+html body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+}
+
+body{
+    background-image: url("../image/concrete-texture.png");
+}
+
+.header-left {
+    color: #ffffff;
+    margin-left: 340px;
+    float: left;
+    background: #4aaaa5;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ .header-right {
+     float: right;
+     margin-right: 335px;
+}
+span{
+    margin-top: 10px;
+    float: right;
+    padding: 10px 0 0 5px;
+}
+ 
+ul {margin:0; padding:0; list-style-type: none;}
+ul li {float:right; padding:10px; margin-left: 10px; }
+ul li a {float:right; font-size:16px; padding: 10px 0 0 5px; text-decoration: none; color: #666666;}
+
+
+ hr {
+     clear: both;
+     overflow: auto;
+ }
+ 
+header {
+    font-family: Georgia, "Times New Roman", Times, serif; 
+    background-color: #ffffff;
+    /* border: solid 1px red; */
+    height: 72px;
+    border-bottom: solid 1px #cccccc;    
+}
+
+.container {
+   clear: both;
+   margin-top: 40px;
+}
+
+.bio-heading {
+    color: #4aaaa5;
+}
+
+#bio {
+  padding: 20px;  
+  margin:auto;
+  width: 960px;
+  background-color: #ffffff;
+}
+
+  
+li :hover {
+    color: #4aaaa5;
+}
+
+
+input:focus { 
+    outline: none !important;
+    border-color: #4aaaa5;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+textarea:focus { 
+    outline: none !important;
+    border-color: #4aaaa5;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+input[type=text],
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.comments {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    clear: both;
+    height: 50px;
+    background-color: #666666;
+    border-top: solid 6px #4aaaa5; 
+    padding-top: 16px;
+}
