@@ -1,48 +1,15 @@
-.navbar-light .navbar-brand {
-    height:60px;
+.navbar-brand {
+    height:15%;
     margin:0;
     font-size: 2rem;
     font-weight: 400;
     color:#F0DB4F;
 }
 
-.NavbarBrand {
-    display: inline-block;
-    padding-top: 0.8125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
-}
-
-
-
 .navbar-toggler{
     background:white;
 }
 
-
-.navbar {
-    padding:0;
-    background: #000000;
-    z-index: 1000;
-    position: fixed;
-    top:0;
-    right:0;
-    left:0;
-   
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color:#fff;
+.nav-link {
     font-size: 1.5rem;
-}
-
-.nav-item{
-    padding:0 1rem;
-}
-
-.nav-container{
-     width:80%;
 }

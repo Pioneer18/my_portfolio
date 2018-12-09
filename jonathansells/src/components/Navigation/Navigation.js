@@ -25,24 +25,31 @@ export default class Navigation extends React.Component {
     });
   }
   render() {
+      const text = {color:"#fff", padding: "0 1rem"}
+      const navBack = {
+          backgroundColor: "#000",
+          color: "#F0DB4F", 
+          padding: ".5% 10%",
+        }
+
     return (
       <div>
-        <Navbar  light expand="md">
-          <NavbarBrand to="/">JS</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink to="#">About Me</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink to="#">Projects</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink to="#">Contact</NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
+        <Navbar style={navBack}  light expand="md">
+            <NavbarBrand to="/">JS</NavbarBrand>
+            <NavbarToggler onClick={this.toggle} />
+            <Collapse isOpen={this.state.isOpen} navbar>
+                <Nav  className="ml-auto" navbar>
+                <NavItem>
+                    <NavLink style={text} to="#">About Me</NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink style={text} to="#">Projects</NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink style={text} to="#">Contact</NavLink>
+                </NavItem>
+                </Nav>
+            </Collapse>
         </Navbar>
       </div>
     );
