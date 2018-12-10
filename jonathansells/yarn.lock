@@ -8317,6 +8317,11 @@ react-numeric-input@^2.2.3:
   resolved "https://registry.yarnpkg.com/react-numeric-input/-/react-numeric-input-2.2.3.tgz#4bf5918c3eafed851a80df1eb992d941002bb552"
   integrity sha1-S/WRjD6v7YUagN8euZLZQQArtVI=
 
+react-parallax@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-parallax/-/react-parallax-2.0.1.tgz#22448e166eeb3206ee1a2bd90027d65b56a2a085"
+  integrity sha512-apzMLQzr2HhOn4TmekFoQjlDyK/MzBv6Vk2CpykUMC0u0lFKIzkuB8jMaDX5Pr088cWoD1SU7OIVDsMG1GhSDw==
+
 react-popper@^0.10.4:
   version "0.10.4"
   resolved "https://registry.yarnpkg.com/react-popper/-/react-popper-0.10.4.tgz#af2a415ea22291edd504678d7afda8a6ee3295aa"

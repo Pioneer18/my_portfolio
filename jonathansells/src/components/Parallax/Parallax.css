@@ -1,0 +1,46 @@
+
+.parallax{ 
+    /*the image used and relative parent element to teh about-me text*/
+    background: url("../../images/dynamic_dark.jpg");
+    /*need to set a specific height*/
+    /*height:900px;*/
+    /*create the parallax scrolling effect*/
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    line-height: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pTitle {
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;    
+    align-items: center;
+    width:70%;
+    height:30%;
+    margin: auto;
+    color:#fff;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #666,
+                       3px 3px 8px black;
+}
+
+.title-text {
+    font-family: "Raleway", "Helevtica";
+    font-size: 3rem;
+    line-height: 3rem;
+
+}
+
+.pTitle .jsells {
+    color:#F0DB4F;
+
+}

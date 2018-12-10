@@ -14,6 +14,7 @@ import {
     Jumbotron,
     Container
   } from 'reactstrap'
+  
 
 export default class Navigation extends React.Component {
   constructor(props) {
@@ -38,7 +39,7 @@ export default class Navigation extends React.Component {
         }
 
     return (
-      <div>
+      <React.Fragment>
         <Navbar light style={navBack}  expand="md">
             <NavbarBrand style={brand} to="/">JS</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
@@ -56,13 +57,17 @@ export default class Navigation extends React.Component {
                 </Nav>
             </Collapse>
         </Navbar>
-        <Jumbotron className="jumboImg" fluid>
-        <Container fluid>
-          <h1 className="display-3">Hello, I'm<span style={brand} className="jsells"> Jonathan Sells</span><br/>I'm a full-stack web &amp; IoT Developer</h1>
-          <p className="lead">button to be</p>
-        </Container>
-      </Jumbotron>
-      </div>
+      </React.Fragment>
     );
   }
 }
+
+
+/* 
+ <Jumbotron style={{padding:"0px"}} fluid>
+    <Container  className="jumboImg" style={{ margin:0 }} fluid>
+          <h1 className="display-3">Hello, I'm<span style={brand} className="jsells"> Jonathan Sells</span><br/>I'm a full-stack web &amp; IoT Developer</h1>
+          <p className="lead">button to be</p>
+    </Container>
+ </Jumbotron>
+*/

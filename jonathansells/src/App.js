@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "./"
 import './App.css';
 import Navigation from "./components/Navigation";
+import Parallax from "./components/Parallax";
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
       <div className="App">
        <React.Fragment>
          <Navigation />
+         <Parallax />
        </React.Fragment>
       </div>
     );

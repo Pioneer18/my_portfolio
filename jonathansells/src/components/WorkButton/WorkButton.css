@@ -1,0 +1,48 @@
+.work-button {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;    
+    align-items: center;
+    padding:1rem 2rem 1rem 1.5rem;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-top:20px;
+    box-shadow: 1px 1px 1px #666,
+    3px 3px 8px black;
+    font-weight: 650;
+    color: #fff;
+    font-size:150%;
+    
+}
+
+ .work-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .work-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .work-button:hover span {
+    padding-right: 25px;
+    color:#F0DB4F;
+    text-shadow: 1px 1px 1px #666,
+                       3px 3px 4px black;
+  }
+  
+  .work-button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.work-button:hover {
+    background:white;
+}
