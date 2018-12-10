@@ -1,0 +1,9 @@
+.section-divider h3 {
+    padding: 6.25rem;
+    margin: 0;
+    font-family: "Helvetica";
+    color:#000;
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
