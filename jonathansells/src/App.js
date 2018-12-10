@@ -4,6 +4,7 @@ import './App.css';
 import Navigation from "./components/Navigation";
 import Parallax from "./components/Parallax";
 import SectionDivider from "./components/SectionDivder";
+import AboutMe from "./components/AboutMe";
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
          <Navigation />
          <Parallax />
          <SectionDivider />
+         <AboutMe />
        </React.Fragment>
       </div>
     );
