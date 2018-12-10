@@ -5,6 +5,7 @@ import Navigation from "./components/Navigation";
 import Parallax from "./components/Parallax";
 import SectionDivider from "./components/SectionDivder";
 import AboutMe from "./components/AboutMe";
+import Timeline from "./components/Timeline";
 
 class App extends Component {
   render() {
@@ -15,6 +16,8 @@ class App extends Component {
          <Parallax />
          <SectionDivider />
          <AboutMe />
+         <SectionDivider />
+         <Timeline />
        </React.Fragment>
       </div>
     );
