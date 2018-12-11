@@ -1,10 +1,10 @@
 {
   "main.css": "/my_portfolio/static/css/main.ec75a33f.chunk.css",
-  "main.js": "/my_portfolio/static/js/main.cbeb4f0b.chunk.js",
-  "main.js.map": "/my_portfolio/static/js/main.cbeb4f0b.chunk.js.map",
+  "main.js": "/my_portfolio/static/js/main.3c7ae81b.chunk.js",
+  "main.js.map": "/my_portfolio/static/js/main.3c7ae81b.chunk.js.map",
   "static/css/1.8b21aa8b.chunk.css": "/my_portfolio/static/css/1.8b21aa8b.chunk.css",
-  "static/js/1.d85add2b.chunk.js": "/my_portfolio/static/js/1.d85add2b.chunk.js",
-  "static/js/1.d85add2b.chunk.js.map": "/my_portfolio/static/js/1.d85add2b.chunk.js.map",
+  "static/js/1.0355df80.chunk.js": "/my_portfolio/static/js/1.0355df80.chunk.js",
+  "static/js/1.0355df80.chunk.js.map": "/my_portfolio/static/js/1.0355df80.chunk.js.map",
   "runtime~main.js": "/my_portfolio/static/js/runtime~main.dcf3931a.js",
   "runtime~main.js.map": "/my_portfolio/static/js/runtime~main.dcf3931a.js.map",
   "static/media/mdb.css": "/my_portfolio/static/media/Roboto-Bold.e31fcf18.ttf",
@@ -22,6 +22,6 @@
   "static/css/main.ec75a33f.chunk.css.map": "/my_portfolio/static/css/main.ec75a33f.chunk.css.map",
   "static/css/1.8b21aa8b.chunk.css.map": "/my_portfolio/static/css/1.8b21aa8b.chunk.css.map",
   "index.html": "/my_portfolio/index.html",
-  "precache-manifest.22c0acd9f0ca415350b5bb99428c753f.js": "/my_portfolio/precache-manifest.22c0acd9f0ca415350b5bb99428c753f.js",
+  "precache-manifest.d8aded5a430ef56baef6a9e2bea39b26.js": "/my_portfolio/precache-manifest.d8aded5a430ef56baef6a9e2bea39b26.js",
   "service-worker.js": "/my_portfolio/service-worker.js"
 }

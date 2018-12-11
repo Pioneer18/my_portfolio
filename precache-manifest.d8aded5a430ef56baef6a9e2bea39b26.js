@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/Roboto-Light.a990f611.eot"
   },
   {
-    "revision": "cbeb4f0b345cf0f2d98e",
+    "revision": "3c7ae81bbebc024eec3a",
     "url": "/my_portfolio/static/css/main.ec75a33f.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/Screenshot (20).c77afd0c.png"
   },
   {
-    "revision": "d85add2b77cb088e0f50",
-    "url": "/my_portfolio/static/js/1.d85add2b.chunk.js"
+    "revision": "0355df801f2cb54b1c01",
+    "url": "/my_portfolio/static/js/1.0355df80.chunk.js"
   },
   {
     "revision": "dcf3931afee046ce6d05",
@@ -84,8 +84,8 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/Roboto-Thin.dfe56a87.eot"
   },
   {
-    "revision": "cbeb4f0b345cf0f2d98e",
-    "url": "/my_portfolio/static/js/main.cbeb4f0b.chunk.js"
+    "revision": "3c7ae81bbebc024eec3a",
+    "url": "/my_portfolio/static/js/main.3c7ae81b.chunk.js"
   },
   {
     "revision": "30799efa5bf74129468ad4e257551dc3",
@@ -104,12 +104,12 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/Roboto-Thin.954bbdeb.woff2"
   },
   {
-    "revision": "2751ee43015f9884c3642f103b7f70c9",
-    "url": "/my_portfolio/static/media/Roboto-Regular.2751ee43.woff2"
-  },
-  {
     "revision": "69f8a0617ac472f78e45841323a3df9e",
     "url": "/my_portfolio/static/media/Roboto-Light.69f8a061.woff2"
+  },
+  {
+    "revision": "2751ee43015f9884c3642f103b7f70c9",
+    "url": "/my_portfolio/static/media/Roboto-Regular.2751ee43.woff2"
   },
   {
     "revision": "574fd0b50367f886d359e8264938fc37",
@@ -164,11 +164,11 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/dynamic_dark.d2467906.jpg"
   },
   {
-    "revision": "d85add2b77cb088e0f50",
+    "revision": "0355df801f2cb54b1c01",
     "url": "/my_portfolio/static/css/1.8b21aa8b.chunk.css"
   },
   {
-    "revision": "6c1ac8913d07427b4fb4eae97c5f0bf7",
+    "revision": "d4fde177001d25de12837966f601e7de",
     "url": "/my_portfolio/index.html"
   }
 ];
