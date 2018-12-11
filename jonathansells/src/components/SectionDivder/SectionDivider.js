@@ -1,12 +1,13 @@
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
+import { Animation } from 'mdbreact';
 import "./SectionDivider.css";
 const SectionDivider = props => (
-    <ScrollAnimation animateIn="slideInLeft" animateOnce="true">
-        <div  className="section-divider">
+    <Animation type="fadeInLeftBig" className="wow">
+        <div className="section-divider">
             <h3>{props.divider}</h3>
         </div>
-    </ScrollAnimation>
+    </Animation>
+
 )
 
 export default SectionDivider;
