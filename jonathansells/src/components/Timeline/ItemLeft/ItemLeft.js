@@ -3,7 +3,7 @@ import React from 'react';
 const ItemLeft = props => (
     <li className="timeline-inverted">
         <div className="timeline-badge">
-            <a><i className="fa fa-circle" className=""></i></a>
+            <a><i className="fa fa-circle"></i></a>
         </div>
         <div className="timeline-panel">
             <div className="timeline-heading">

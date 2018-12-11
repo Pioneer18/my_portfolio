@@ -1,0 +1,7 @@
+.project-card{
+    min-height: 240px;
+    background: url("../../images/Screenshot\ \(20\).png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}

@@ -1,98 +1,44 @@
 import React from 'react';
 import "./Gallery.css";
-import { Container, Row, Col, Card, CardBody, CardImage, CardTitle, CardText } from 'mdbreact';
+import { Container, Row, Col, View, Mask } from 'mdbreact';
 import img1 from "../../images/veggies_soil_4.jpg";
+import img2 from "../../images/nippon-profile.jpg";
+import img3 from "../../images/studying.jpg";
+import img4 from "../../images/southshoremain.jpg";
+import img5 from "../../images/ubif_memories.JPG";
+import img6 from "../../images/IMG_20180429_194629 (1).jpg";
+import Project from "./Project";
+
 
 export default class Gallery extends React.Component {
     render() {
         return (
-            <Container style={{padding:"0"}} className="gallery-container">
+            <Container style={{ padding: "0" }} className="gallery-container">
                 <Row>
-                    <Col style={{margin:"0 0 1rem"}} sm="4">
-                        <Card className="project-card" style={{ height: "", width: "100%" }}>
-                            
-                        </Card>
+                    <Col style={{ margin: "0 0 1rem" }} md="6" lg="4">
+                        <Project url={img1} />
                     </Col>
-                    <Col style={{margin:"0 0 1rem"}} sm="4">
-                        <Card style={{ width: "100%" }}>
-                            <CardImage
-                                className="img-fluid"
-                                src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
-                                waves
-                            />
-                            <CardBody>
-                                <CardTitle>Card title</CardTitle>
-                                <CardText>
-                                    Some quick example text to build on the card title and make
-                                    up the bulk of the card&apos;s content.
-                                </CardText>
-                            </CardBody>
-                        </Card>
+
+                    <Col style={{ margin: "0 0 1rem" }} md="6" lg="4">
+                        <Project url={img2} />
                     </Col>
-                    <Col style={{margin:"0 0 1rem"}}  sm="4">
-                        <Card style={{ width: "100%" }}>
-                            <CardImage
-                                className="img-fluid"
-                                src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
-                                waves
-                            />
-                            <CardBody>
-                                <CardTitle>Card title</CardTitle>
-                                <CardText>
-                                    Some quick example text to build on the card title and make
-                                    up the bulk of the card&apos;s content.
-                                </CardText>
-                            </CardBody>
-                        </Card>
+
+                    <Col style={{ margin: "0 0 1rem" }} md="6" lg="4">
+                        <Project url={img3} />
                     </Col>
-                    <Col style={{margin:"0 0 1rem"}} sm="4">
-                        <Card style={{ width: "100%" }}>
-                            <CardImage
-                                className="img-fluid"
-                                src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
-                                waves
-                            />
-                            <CardBody>
-                                <CardTitle>Card title</CardTitle>
-                                <CardText>
-                                    Some quick example text to build on the card title and make
-                                    up the bulk of the card&apos;s content.
-                                </CardText>
-                            </CardBody>
-                        </Card>
+
+                    <Col style={{ margin: "0 0 1rem" }} md="6" lg="4">
+                        <Project url={img4} />
                     </Col>
-                    <Col style={{margin:"0 0 1rem"}} sm="4">
-                        <Card style={{ width: "100%" }}>
-                            <CardImage
-                                className="img-fluid"
-                                src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
-                                waves
-                            />
-                            <CardBody>
-                                <CardTitle>Card title</CardTitle>
-                                <CardText>
-                                    Some quick example text to build on the card title and make
-                                    up the bulk of the card&apos;s content.
-                                </CardText>
-                            </CardBody>
-                        </Card>
+
+                    <Col style={{ margin: "0 0 1rem" }} md="6" lg="4">
+                        <Project url={img5} />
                     </Col>
-                    <Col style={{margin:"0 0 1rem"}} sm="4">
-                        <Card style={{ width: "100%" }}>
-                            <CardImage
-                                className="img-fluid"
-                                src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
-                                waves
-                            />
-                            <CardBody>
-                                <CardTitle>Card title</CardTitle>
-                                <CardText>
-                                    Some quick example text to build on the card title and make
-                                    up the bulk of the card&apos;s content.
-                                </CardText>
-                            </CardBody>
-                        </Card>
+
+                    <Col style={{ margin: "0 0 1rem" }} md="6" lg="4">
+                        <Project url={img6} />
                     </Col>
+
                 </Row>
             </Container>
         )

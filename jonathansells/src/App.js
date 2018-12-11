@@ -28,6 +28,7 @@ class App extends Component {
          <Timeline />
          <SectionDivider divider={"My Projects"} />
          <Gallery />
+         <SectionDivider divider={"Contact Me"} />
        </React.Fragment>
       </div>
     );
