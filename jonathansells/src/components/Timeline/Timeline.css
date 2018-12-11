@@ -175,6 +175,12 @@
     width:90%;
     min-width: 170px;
 }
+.study_img{
+    float:left;
+    margin-left:1.2rem;
+    height:auto;
+    width:70%;
+}
 
 @media (max-width: 990px) {
     .time-container{

@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Item = props => (
-    <li>
+const ItemLeft = props => (
+    <li className="timeline-inverted">
         <div className="timeline-badge">
             <a><i className="fa fa-circle" className=""></i></a>
         </div>
@@ -22,4 +22,4 @@ const Item = props => (
     </li>
 )
 
-export default Item;
+export default ItemLeft;
