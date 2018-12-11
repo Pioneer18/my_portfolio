@@ -10,6 +10,7 @@ import {
   NavItem,
   NavLink,
   } from 'mdbreact';
+import zIndex from '@material-ui/core/styles/zIndex';
   
   
 
@@ -33,6 +34,7 @@ export default class Navigation extends React.Component {
       const navBack = {
           backgroundColor: "#000", 
           padding: ".5% 10%",
+          zIndex: "1000"
         }
 
     return (
