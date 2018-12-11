@@ -8,15 +8,22 @@ import AboutMe from "./components/AboutMe";
 import Timeline from "./components/Timeline";
 
 class App extends Component {
+
+ handleClick = event => {
+  event.preventDefault();
+  console.log("buton clicked yo");
+  this.props.history.push("/projects");
+}
+
   render() {
     return (
       <div className="App">
        <React.Fragment>
          <Navigation />
-         <Parallax />
-         <SectionDivider />
+         <Parallax handleClick={this.handleClick} />
+         <SectionDivider divider={"About Me"} />
          <AboutMe />
-         <SectionDivider />
+         <SectionDivider divider={"My Journey"} />
          <Timeline />
        </React.Fragment>
       </div>

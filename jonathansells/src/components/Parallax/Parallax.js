@@ -44,7 +44,7 @@ export default class Parallax extends React.Component {
                 
                              IoT developer.
                         </div>
-                        <WorkButton />
+                        <WorkButton handleClick={this.props.handleClick}/>
                     </div>
                 </div>
             </React.Fragment>

@@ -9,7 +9,7 @@ export default class WorkButton extends React.Component {
 
     render() {
         return(
-            <div className="work-button">
+            <div className="work-button" onClick={this.props.handleClick}>
                 <span>View My Work</span>
             </div>
         );
