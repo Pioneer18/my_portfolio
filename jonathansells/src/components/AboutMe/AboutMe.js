@@ -10,7 +10,7 @@ import {
 import source from "../../images/nippon-profile.jpg";
 
 const AboutMe = props => (
-    <Animation type="fadeIn" slower>
+    <Animation reveal type="fadeIn">
         <Container className="about-container">
             <Row center>
                 <Col sm="7">

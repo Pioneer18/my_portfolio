@@ -2,7 +2,7 @@ import React from 'react';
 import { Animation } from 'mdbreact';
 import "./SectionDivider.css";
 const SectionDivider = props => (
-    <Animation type="fadeInLeftBig" className="wow">
+    <Animation reveal type="fadeInLeftBig">
         <div className="section-divider">
             <h3>{props.divider}</h3>
         </div>
