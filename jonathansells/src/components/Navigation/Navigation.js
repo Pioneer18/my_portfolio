@@ -10,10 +10,7 @@ import {
   NavItem,
   NavLink,
   } from 'mdbreact';
-  import {
-    Jumbotron,
-    Container
-  } from 'reactstrap'
+  
   
 
 export default class Navigation extends React.Component {
