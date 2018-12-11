@@ -6,13 +6,14 @@ import Parallax from "./components/Parallax";
 import SectionDivider from "./components/SectionDivder";
 import AboutMe from "./components/AboutMe";
 import Timeline from "./components/Timeline";
+import Gallery from "./components/Gallery";
 
 class App extends Component {
 
  handleClick = event => {
   event.preventDefault();
   console.log("buton clicked yo");
-  this.props.history.push("/projects");
+  /*this.props.history.push("/projects");*/
 }
 
   render() {
@@ -25,6 +26,8 @@ class App extends Component {
          <AboutMe />
          <SectionDivider divider={"My Journey"} />
          <Timeline />
+         <SectionDivider divider={"My Projects"} />
+         <Gallery />
        </React.Fragment>
       </div>
     );
