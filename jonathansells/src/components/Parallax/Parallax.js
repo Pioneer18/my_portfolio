@@ -62,7 +62,7 @@ export default class Parallax extends React.Component {
                                     <br/>
                                     I'm a full-stack web &amp; 
                                     <br/>
-                                    IoT developer.(Mobile)    
+                                    IoT developer.    
                                 </div>
                                 </Tablet>
                                 <Mobile >
@@ -71,7 +71,7 @@ export default class Parallax extends React.Component {
                                     <br/>
                                     I'm a full-stack web &amp; 
                                     <br/>
-                                    IoT developer.(Mobile)
+                                    IoT developer.
                                 </div>
                                 </Mobile>
                             

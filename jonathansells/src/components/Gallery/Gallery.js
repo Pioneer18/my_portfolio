@@ -11,32 +11,36 @@ import Project from "./Project";
 
 
 export default class Gallery extends React.Component {
+    constructor(props){
+        super();
+    }
+
     render() {
         return (
-            <Container style={{ padding: "0" }} className="gallery-container">
+            <Container style={{ padding: "0px" }} className="gallery-container">
                 <Row>
-                    <Col style={{ margin: "0 0 1rem" }} md="6" lg="4">
+                    <Col style={{ padding: "0px" }} md="6" lg="4">
                         <Project url={img1} />
                     </Col>
 
-                    <Col style={{ margin: "0 0 1rem" }} md="6" lg="4">
+                    <Col style={{ padding: "0px"}} md="6" lg="4">
                         <Project url={img2} />
                     </Col>
 
-                    <Col style={{ margin: "0 0 1rem" }} md="6" lg="4">
+                    <Col style={{ padding: "0px"}} md="6" lg="4">
                         <Project url={img3} />
                     </Col>
 
-                    <Col style={{ margin: "0 0 1rem" }} md="6" lg="4">
-                        <Project url={img4} />
+                    <Col style={{ padding: "0px"}} md="6" lg="4">
+                        <Project  url={img4} />
                     </Col>
 
-                    <Col style={{ margin: "0 0 1rem" }} md="6" lg="4">
-                        <Project url={img5} />
+                    <Col style={{ padding: "0px"}} md="6" lg="4">
+                        <Project  url={img5} />
                     </Col>
 
-                    <Col style={{ margin: "0 0 1rem" }} md="6" lg="4">
-                        <Project url={img6} />
+                    <Col style={{ padding: "0px"}} md="6" lg="4">
+                        <Project  url={img4} />
                     </Col>
 
                 </Row>

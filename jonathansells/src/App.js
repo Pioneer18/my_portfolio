@@ -7,7 +7,7 @@ import SectionDivider from "./components/SectionDivder";
 import AboutMe from "./components/AboutMe";
 import Timeline from "./components/Timeline";
 import Gallery from "./components/Gallery";
-import Example from './components/Example/Example';
+
 
 class App extends Component {
 
@@ -29,7 +29,6 @@ class App extends Component {
          <SectionDivider divider={"My Projects"} />
          <Gallery />
          <SectionDivider divider={"Contact Me"} />
-         <Example />
        </React.Fragment>
       </div>
     );
