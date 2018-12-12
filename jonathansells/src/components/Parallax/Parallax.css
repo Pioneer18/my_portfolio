@@ -1,4 +1,5 @@
 
+
 .parallax{ 
     /*the image used and relative parent element to teh about-me text*/
     background: url("../../images/dynamic_dark.jpg");
@@ -35,8 +36,8 @@
 
 .title-text {
     font-family: "Raleway", "Helevtica";
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 300%;
+    line-height: 100%;
 }
 
 .pTitle .jsells {

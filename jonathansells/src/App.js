@@ -13,7 +13,6 @@ class App extends Component {
  handleClick = event => {
   event.preventDefault();
   console.log("buton clicked yo");
-  /*this.props.history.push("/projects");*/
 }
 
   render() {
