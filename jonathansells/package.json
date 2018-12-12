@@ -11,8 +11,8 @@
     "react": "^16.3.2",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.3.2",
-    "react-native-responsive-screen": "^1.1.10",
     "react-parallax": "^2.0.1",
+    "react-responsive": "^6.0.1",
     "react-scripts": "2.1.1",
     "react-strap": "^0.0.1",
     "reactstrap": "^6.5.0"

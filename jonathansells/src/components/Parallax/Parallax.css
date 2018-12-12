@@ -36,8 +36,14 @@
 
 .title-text {
     font-family: "Raleway", "Helevtica";
-    font-size: 300%;
-    line-height: 100%;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.small {
+    font-family: "Raleway", "Helevtica";
+    font-size: 2rem;
+    line-height: 2rem;
 }
 
 .pTitle .jsells {
