@@ -4,20 +4,24 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/Roboto-Light.a990f611.eot"
   },
   {
-    "revision": "d0984a7f5852e01f2793",
-    "url": "/my_portfolio/static/css/main.dda75ad0.chunk.css"
+    "revision": "6934bf49f09d5eaa5afd",
+    "url": "/my_portfolio/static/css/main.5b51b037.chunk.css"
   },
   {
-    "revision": "c77afd0c30fefad7b9f49026a48b5e9b",
-    "url": "/my_portfolio/static/media/Screenshot (20).c77afd0c.png"
+    "revision": "d24679065b724dd80d3e1ac07c56d280",
+    "url": "/my_portfolio/static/media/dynamic_dark.d2467906.jpg"
   },
   {
-    "revision": "2158abde45b50643f0e5",
-    "url": "/my_portfolio/static/js/1.2158abde.chunk.js"
+    "revision": "5d0f654d83ec4404be0b",
+    "url": "/my_portfolio/static/js/1.5d0f654d.chunk.js"
   },
   {
     "revision": "dcf3931afee046ce6d05",
     "url": "/my_portfolio/static/js/runtime~main.dcf3931a.js"
+  },
+  {
+    "revision": "0af3b33f44f41af7febc823f958b17aa",
+    "url": "/my_portfolio/static/media/southshoremain.0af3b33f.jpg"
   },
   {
     "revision": "77b4845fa06e2c3d425144bb5db2e2f9",
@@ -28,16 +32,12 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/studying.e3460f98.jpg"
   },
   {
-    "revision": "875f7d0e79ff5fd0eedcd51f80a6fc31",
-    "url": "/my_portfolio/static/media/IMG_20180429_194629 (1).875f7d0e.jpg"
-  },
-  {
-    "revision": "0af3b33f44f41af7febc823f958b17aa",
-    "url": "/my_portfolio/static/media/southshoremain.0af3b33f.jpg"
-  },
-  {
     "revision": "350159e1428370b41e5a124d739c4f5f",
     "url": "/my_portfolio/static/media/ubif_memories.350159e1.JPG"
+  },
+  {
+    "revision": "875f7d0e79ff5fd0eedcd51f80a6fc31",
+    "url": "/my_portfolio/static/media/IMG_20180429_194629 (1).875f7d0e.jpg"
   },
   {
     "revision": "606284d4781a7454160dd898dc2daa0e",
@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/my_portfolio/static/media/fontawesome-webfont.674f50d2.eot"
-  },
-  {
     "revision": "b06871f281fee6b241d60582ae9369b9",
     "url": "/my_portfolio/static/media/fontawesome-webfont.b06871f2.ttf"
+  },
+  {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/my_portfolio/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "912ec66d7572ff821749319396470bde",
@@ -84,8 +84,8 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/Roboto-Thin.dfe56a87.eot"
   },
   {
-    "revision": "d0984a7f5852e01f2793",
-    "url": "/my_portfolio/static/js/main.d0984a7f.chunk.js"
+    "revision": "6934bf49f09d5eaa5afd",
+    "url": "/my_portfolio/static/js/main.6934bf49.chunk.js"
   },
   {
     "revision": "30799efa5bf74129468ad4e257551dc3",
@@ -160,15 +160,11 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/Roboto-Bold.e31fcf18.ttf"
   },
   {
-    "revision": "d24679065b724dd80d3e1ac07c56d280",
-    "url": "/my_portfolio/static/media/dynamic_dark.d2467906.jpg"
-  },
-  {
-    "revision": "2158abde45b50643f0e5",
+    "revision": "5d0f654d83ec4404be0b",
     "url": "/my_portfolio/static/css/1.8f341b71.chunk.css"
   },
   {
-    "revision": "678f0ab962c8c853dffe12e659779d58",
+    "revision": "5005a6dfac3f3ec3128154ebe2dd6039",
     "url": "/my_portfolio/index.html"
   }
 ];
