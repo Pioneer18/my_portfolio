@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/Roboto-Light.a990f611.eot"
   },
   {
-    "revision": "3c7ae81bbebc024eec3a",
-    "url": "/my_portfolio/static/css/main.ec75a33f.chunk.css"
+    "revision": "d0984a7f5852e01f2793",
+    "url": "/my_portfolio/static/css/main.dda75ad0.chunk.css"
   },
   {
     "revision": "c77afd0c30fefad7b9f49026a48b5e9b",
     "url": "/my_portfolio/static/media/Screenshot (20).c77afd0c.png"
   },
   {
-    "revision": "0355df801f2cb54b1c01",
-    "url": "/my_portfolio/static/js/1.0355df80.chunk.js"
+    "revision": "2158abde45b50643f0e5",
+    "url": "/my_portfolio/static/js/1.2158abde.chunk.js"
   },
   {
     "revision": "dcf3931afee046ce6d05",
@@ -84,8 +84,8 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/Roboto-Thin.dfe56a87.eot"
   },
   {
-    "revision": "3c7ae81bbebc024eec3a",
-    "url": "/my_portfolio/static/js/main.3c7ae81b.chunk.js"
+    "revision": "d0984a7f5852e01f2793",
+    "url": "/my_portfolio/static/js/main.d0984a7f.chunk.js"
   },
   {
     "revision": "30799efa5bf74129468ad4e257551dc3",
@@ -164,11 +164,11 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/dynamic_dark.d2467906.jpg"
   },
   {
-    "revision": "0355df801f2cb54b1c01",
-    "url": "/my_portfolio/static/css/1.8b21aa8b.chunk.css"
+    "revision": "2158abde45b50643f0e5",
+    "url": "/my_portfolio/static/css/1.8f341b71.chunk.css"
   },
   {
-    "revision": "d4fde177001d25de12837966f601e7de",
+    "revision": "678f0ab962c8c853dffe12e659779d58",
     "url": "/my_portfolio/index.html"
   }
 ];
