@@ -6,7 +6,6 @@
     /*need to set a specific height*/
     /*height:900px;*/
     /*create the parallax scrolling effect*/
-    background-attachment: fixed;
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -17,6 +16,7 @@
     justify-content: center;
     align-items: center;
 }
+
 
 
 .pTitle {
