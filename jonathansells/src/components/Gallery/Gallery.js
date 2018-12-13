@@ -6,7 +6,7 @@ import img2 from "../../images/nippon-profile.jpg";
 import img3 from "../../images/studying.jpg";
 import img4 from "../../images/southshoremain.jpg";
 import img5 from "../../images/ubif_memories.JPG";
-import img6 from "../../images/IMG_20180429_194629 (1).jpg";
+import img6 from "../../images/ezgif.com-resize (1).gif";
 import Project from "./Project";
 
 
@@ -16,31 +16,58 @@ export default class Gallery extends React.Component {
     }
 
     render() {
+        const liri = "https://media.giphy.com/media/kG8biFz9xx0yluJXOd/giphy.gif";
+        const projects = {
+            ghub2: {
+                t:"GardenHub 2.1",
+                h: "https://github.com/Pioneer18/garden_hub2.1"
+            },
+            gift: {
+                t:"Giftastic",
+                h: "https://pioneer18.github.io/Giftastic/"
+            },
+            finn: {
+                t:"Rember That Character",
+                h: "https://pioneer18.github.io/remember-that-character/"
+            },
+            liri: {
+                t:"Liri (& Bamazon)",
+                h: "https://github.com/Pioneer18/liri-node-app"
+            },
+            scrape: {
+                t:"Aljazeera Scraper",
+                h: "https://github.com/Pioneer18/aljazeera-scraper"
+            },
+            ghub: {
+                t:"GardenHub",
+                h: "https://pioneer18.github.io/GardenHub/"
+            }
+        }
         return (
             <Container style={{ padding: "0px" }} className="gallery-container">
                 <Row>
                     <Col style={{ padding: "0px" }} md="6" lg="4">
-                        <Project url={img1} />
+                        <Project href={projects.finn.h} link={projects.finn.t} url={img1} />
                     </Col>
 
                     <Col style={{ padding: "0px"}} md="6" lg="4">
-                        <Project url={img2} />
+                        <Project href={projects.ghub.h} link={projects.ghub.t} url={img2} />
                     </Col>
 
                     <Col style={{ padding: "0px"}} md="6" lg="4">
-                        <Project url={img3} />
+                        <Project href={projects.ghub2.h} link={projects.ghub2.t} url={img3} />
                     </Col>
 
                     <Col style={{ padding: "0px"}} md="6" lg="4">
-                        <Project  url={img4} />
+                        <Project href={projects.liri.h} link={projects.liri.t}  url={img6} />
                     </Col>
 
                     <Col style={{ padding: "0px"}} md="6" lg="4">
-                        <Project  url={img5} />
+                        <Project href={projects.scrape.h} link={projects.scrape.t}  url={img5} />
                     </Col>
 
                     <Col style={{ padding: "0px"}} md="6" lg="4">
-                        <Project  url={img4} />
+                        <Project href={projects.gift.h} link={projects.gift.t}  url={img4} />
                     </Col>
 
                 </Row>

@@ -7,6 +7,16 @@
     background-position: center;
 }
 
+.project-link{
+  color:white;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
   
   .overlay {
     position: absolute;

@@ -21,9 +21,9 @@ import React from 'react';
 import { Animation } from 'mdbreact';
 const Project = props => (
     <Animation reveal type="fadeInUp">
-        <div style={{background:`url(${props.url})`, backgroundPosition:`center`, backgroundSize:`cover`}} className="project">
+        <div style={{background:`url(${props.url})`, backgroundPosition:`center`, backgroundSize:`cover`, backgroundRepeat: `no-repeat`}} className="project">
             <div className="overlay">
-                <div className="text">Hello World</div>
+                <div className="text"><a className="project-link" href={props.href}>{props.link}</a></div>
             </div>
         </div>
     </Animation>
