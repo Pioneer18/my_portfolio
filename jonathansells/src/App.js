@@ -10,11 +10,20 @@ import Gallery from "./components/Gallery";
 
 
 class App extends Component {
+  constructor(props){
+    super();
+    this.myRef=React.createRef()
+  }
 
  handleClick = event => {
   event.preventDefault();
   console.log("buton clicked yo");
+  window.scrollTo({
+  behavior: "smooth"
+})
 }
+
+
 
   render() {
     return (
@@ -27,7 +36,7 @@ class App extends Component {
          <SectionDivider divider={"My Journey"} />
          <Timeline />
          <SectionDivider divider={"My Projects"} />
-         <Gallery />
+         <Gallery gallery={this.myRef} />
          <SectionDivider divider={"Contact Me"} />
        </React.Fragment>
       </div>

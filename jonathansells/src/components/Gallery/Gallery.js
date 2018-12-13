@@ -2,7 +2,7 @@ import React from 'react';
 import "./Gallery.css";
 import { Container, Row, Col, View, Mask } from 'mdbreact';
 import img1 from "../../images/adventureTime.gif";
-import img2 from "../../images/nippon-profile.jpg";
+import img2 from "../../images/gardenHub.gif";
 import img3 from "../../images/studying.jpg";
 import img4 from "../../images/southshoremain.jpg";
 import img5 from "../../images/ubif_memories.JPG";
@@ -13,7 +13,9 @@ import Project from "./Project";
 export default class Gallery extends React.Component {
     constructor(props){
         super();
+  
     }
+
 
     render() {
         const liri = "https://media.giphy.com/media/kG8biFz9xx0yluJXOd/giphy.gif";
@@ -44,7 +46,7 @@ export default class Gallery extends React.Component {
             }
         }
         return (
-            <Container style={{ padding: "0px" }} className="gallery-container">
+            <Container ref={this.props.gallery} style={{ padding: "0px" }} className="gallery-container">
                 <Row>
                     <Col style={{ padding: "0px" }} md="6" lg="4">
                         <Project href={projects.finn.h} link={projects.finn.t} url={img1} />
