@@ -1,12 +1,12 @@
 import React from 'react';
 import "./Gallery.css";
 import { Container, Row, Col, View, Mask } from 'mdbreact';
-import img1 from "../../images/veggies_soil_4.jpg";
+import img1 from "../../images/adventureTime.gif";
 import img2 from "../../images/nippon-profile.jpg";
 import img3 from "../../images/studying.jpg";
 import img4 from "../../images/southshoremain.jpg";
 import img5 from "../../images/ubif_memories.JPG";
-import img6 from "../../images/ezgif.com-resize (1).gif";
+import img6 from "../../images/liri.gif";
 import Project from "./Project";
 
 
@@ -31,7 +31,7 @@ export default class Gallery extends React.Component {
                 h: "https://pioneer18.github.io/remember-that-character/"
             },
             liri: {
-                t:"Liri (& Bamazon)",
+                t:"Liri",
                 h: "https://github.com/Pioneer18/liri-node-app"
             },
             scrape: {
