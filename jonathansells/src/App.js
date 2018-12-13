@@ -20,8 +20,8 @@ class App extends Component {
     return (
       <div className="App">
        <React.Fragment>
-         <Navigation />
          <Parallax handleClick={this.handleClick} />
+         <Navigation />
          <SectionDivider divider={"About Me"} />
          <AboutMe />
          <SectionDivider divider={"My Journey"} />

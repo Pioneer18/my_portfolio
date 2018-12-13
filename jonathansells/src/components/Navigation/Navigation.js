@@ -39,13 +39,16 @@ export default class Navigation extends React.Component {
 
     return (
       <React.Fragment>
-        <Navbar light style={navBack}  expand="md">
+        <Navbar light style={navBack}  expand="md" sticky="top">
             <NavbarBrand style={brand} to="/">JS</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav  className="ml-auto" navbar>
                 <NavItem>
                     <NavLink style={text} to="#">About Me</NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink style={text} to="#">My Journey</NavLink>
                 </NavItem>
                 <NavItem>
                     <NavLink style={text} to="#">Projects</NavLink>
