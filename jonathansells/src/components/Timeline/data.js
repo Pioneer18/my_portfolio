@@ -20,7 +20,7 @@ const data = {
     },
     panel3:{
         title: "UBREAKIFIX, ARDUINOS, & MY PARENTS' GARAGE",
-        text: "On November 10th, 2015 I made my final decision to not work another year in Japan, but to instead return home and help my brother with his Ubreakifix repair shops. The opportunity to work with my brother as well as learn the ins and outs of repairing electronics was too good to pass, it seemed like a nice bridge into a tech career. Eager to put my Python Coding skills to the test, I also began programming some hello world arduino circuits as well as designing a few projects of my own. Soon I was so invested in testing my new ideas that I used a portion of the money I saved working in Japan to wall off a third of my parents’ garage, which built a small workshop for projects.",
+        text: "On November 10th, 2015 I made my final decision to not work another year in Japan, but to instead return home and help my brother with his Ubreakifix repair shops. The opportunity to work with my brother as well as learn the ins and outs of repairing electronics was too good to pass, it seemed like a nice bridge into a tech career. Eager to put my Python Coding skills to the test, I began programming some 'hello world' arduino circuits as well as designing a few projects of my own. Soon I was so invested in testing my new ideas that I used a portion of the money I saved working in Japan to wall off a third of my parents’ garage, which built a small workshop for projects.",
         date: "Dec-2015",
         src: source6
     },
