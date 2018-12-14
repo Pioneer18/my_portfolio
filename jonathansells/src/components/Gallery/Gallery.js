@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Gallery.css";
 import { Container, Row, Col, View, Mask } from 'mdbreact';
-import img1 from "../../images/adventureTime.gif";
+import img1 from "../../images/rememberThatCharacter.gif";
 import img2 from "../../images/gardenHub.gif";
 import img3 from "../../images/studying.jpg";
 import img4 from "../../images/southshoremain.jpg";
