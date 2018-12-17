@@ -14,7 +14,7 @@ const data = {
     },
     panel2:{
         title: "TEACHING & STUDYING IN JAPAN",
-        text: "After graduating from W&L I was still unsure of what to do with my recently sparked interest in programming, so I chose to teach English in Japan for a year. While teaching, exploring, and soaking up the experiences of Japan, I continued to work through the exercises in my intro to Python textbook and I also began to study HTML and CSS. I relied on resources like Udemy, Codecademy, and Khan Academy to dive deeper into programming fundamentals, and I also discovered a new interest in Arduinos by reading coding blogs and forums. I wasn’t sure that programming microcontrollers could lead to a career, but the low cost and easy enough interface of Arduinos enticed me to try coding with them anyways.",
+        text: "After graduating from W&L I was still unsure of what to do with my recently sparked interest in programming, so I chose to teach English in Japan for a year. While teaching, exploring, and soaking up the experiences of Japan, I began to study HTML and CSS as well as revisit all the excercises in my Python textbook. I relied on resources like Udemy, Codecademy, and Khan Academy to dive deeper into programming fundamentals, and I also discovered a new interest in Arduinos by reading coding blogs and forums. I wasn’t sure that programming microcontrollers could lead to a career, but the low cost and easy enough interface of Arduinos enticed me to try coding with them anyways.",
         date: "Nov-2014",
         src: source2
     },
