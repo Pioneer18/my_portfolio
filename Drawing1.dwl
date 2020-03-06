@@ -1,3 +1,0 @@
-foggy
-DESKTOP-140GN77 
-Tuesday, May 2, 2017  11:45:04 PM
