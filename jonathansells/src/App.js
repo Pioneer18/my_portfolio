@@ -10,14 +10,14 @@ import Gallery from "./components/Gallery";
 
 
 class App extends Component {
-  constructor(props){
+  constructor(){
     super();
     this.myRef=React.createRef()
   }
 
  handleClick = event => {
   event.preventDefault();
-  console.log("buton clicked yo");
+  console.log("button clicked yo");
   window.scrollTo({
   behavior: "smooth"
 })
