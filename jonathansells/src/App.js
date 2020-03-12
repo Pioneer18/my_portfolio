@@ -18,7 +18,7 @@ class App extends Component {
  handleClick = event => {
   event.preventDefault();
   console.log("button clicked yo");
-  window.scrollTo({
+  window.scrollTo(0, 5000,{
   behavior: "smooth"
 })
 }

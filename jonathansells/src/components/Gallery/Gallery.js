@@ -12,8 +12,7 @@ import Project from "./Project";
 
 export default class Gallery extends React.Component {
     constructor(props){
-        super();
-  
+        super(props);
     }
 
 

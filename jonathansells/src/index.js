@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 //=======================================================
 import App from './App';
 import Navigation from "./components/Navigation";
-import * as serviceWorker from './serviceWorker';
+// import * as serviceWorker from './serviceWorker';
 //import 'font-awesome/css/font-awesome.min.css'; 
 
 
