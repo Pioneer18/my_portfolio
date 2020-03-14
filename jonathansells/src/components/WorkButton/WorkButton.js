@@ -9,7 +9,7 @@ export default class WorkButton extends React.Component {
 
     render() {
         return(
-            <div className="work-button" onClick={this.props.handleClick}>
+            <div className="work-button" onClick={this.props.scrollToProjects}>
                 <span>View My Work</span>
             </div>
         );

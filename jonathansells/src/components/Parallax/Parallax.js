@@ -41,7 +41,7 @@ export default class Parallax extends React.Component {
 
 
     render (){
-        const height = {height: window.innerHeight, widht: window.innerWidth}
+        const height = {height: window.innerHeight, width: window.innerWidth}
         return(
             <React.Fragment>
                 <div id="AboutMe" style={height} className="parallax height-fix">
@@ -75,7 +75,7 @@ export default class Parallax extends React.Component {
                                 </div>
                                 </Mobile>
                             
-                        <WorkButton handleClick={this.props.handleClick}/>
+                        <WorkButton scrollToProjects={this.props.scrollToProjects}/>
                     </div>
                 </div>
             </React.Fragment>

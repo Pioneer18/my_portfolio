@@ -29,7 +29,7 @@ export default class Navigation extends React.Component {
     });
   }
   render() {
-      const brand = {  color:"#F0DB4F"}
+      const brand = {color:"#F0DB4F"}
       const text = {color:"#fff", padding: "0 1rem"}
       const navBack = {
           backgroundColor: "#000", 
@@ -45,13 +45,13 @@ export default class Navigation extends React.Component {
             <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav  className="ml-auto" navbar>
                 <NavItem>
-                    <NavLink style={text} to="#">About Me</NavLink>
+                    <NavLink onClick={this.props.scrollToAboutMe} style={text} to="#">About Me</NavLink>
                 </NavItem>
                 <NavItem>
                     <NavLink style={text} to="#">My Journey</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink style={text} to="#">Projects</NavLink>
+                    <NavLink onClick={this.props.scrollToProjects} style={text} to="#">Projects</NavLink>
                 </NavItem>
                 <NavItem>
                     <NavLink style={text} to="#">Contact</NavLink>
