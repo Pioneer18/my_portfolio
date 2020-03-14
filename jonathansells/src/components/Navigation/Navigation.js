@@ -48,7 +48,7 @@ export default class Navigation extends React.Component {
                     <NavLink onClick={this.props.scrollToAboutMe} style={text} to="#">About Me</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink style={text} to="#">My Journey</NavLink>
+                    <NavLink onClick={this.props.scrollToMyJourney} style={text} to="#">My Journey</NavLink>
                 </NavItem>
                 <NavItem>
                     <NavLink onClick={this.props.scrollToProjects} style={text} to="#">Projects</NavLink>

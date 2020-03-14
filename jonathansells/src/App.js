@@ -25,7 +25,7 @@ class App extends Component {
   scrollToMyJourney = event => {
     event.preventDefault();
     console.log("button clicked yo");
-    window.scrollTo(0, 2000, {
+    window.scrollTo(0, 1700, {
       behavior: "smooth"
     });
   };
@@ -52,6 +52,7 @@ class App extends Component {
         <React.Fragment>
           <Parallax scrollToProjects={this.scrollToProjects} />
           <Navigation 
+            scrollToMyJourney={this.scrollToMyJourney}
             scrollToAboutMe={this.scrollToAboutMe}
             scrollToProjects={this.scrollToProjects}/>
           <SectionDivider divider={"About Me"} />
