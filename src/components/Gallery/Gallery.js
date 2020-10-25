@@ -2,9 +2,9 @@ import React from 'react';
 import "./Gallery.css";
 import { Container, Row, Col, View, Mask } from 'mdbreact';
 import img1 from "../../images/rememberThatCharacter.gif";
-import img2 from "../../images/gardenHub.gif";
+import img2 from "../../images/natours.gif";
 import img3 from "../../images/studying.jpg";
-import img4 from "../../images/southshoremain.jpg";
+import img4 from "../../images/adventure_time.gif";
 import img5 from "../../images/ubif_memories.JPG";
 import img6 from "../../images/liri.gif";
 import Project from "./Project";
@@ -39,9 +39,9 @@ export default class Gallery extends React.Component {
                 t:"Aljazeera Scraper",
                 h: "https://github.com/Pioneer18/aljazeera-scraper"
             },
-            ghub: {
-                t:"GardenHub",
-                h: "https://pioneer18.github.io/GardenHub/"
+            natours: {
+                t:"Natours",
+                h: "https://natours-example.uc.r.appspot.com/"
             }
         }
         return (
@@ -52,7 +52,7 @@ export default class Gallery extends React.Component {
                     </Col>
 
                     <Col style={{ padding: "0px"}} md="6" lg="4">
-                        <Project href={projects.ghub.h} link={projects.ghub.t} url={img2} />
+                        <Project href={projects.natours.h} link={projects.natours.t} url={img2} />
                     </Col>
 
                     <Col style={{ padding: "0px"}} md="6" lg="4">
