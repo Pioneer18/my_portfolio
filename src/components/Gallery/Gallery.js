@@ -40,8 +40,8 @@ export default class Gallery extends React.Component {
                 h: "https://github.com/Pioneer18/aljazeera-scraper"
             },
             ghub: {
-                t:"GardenHub",
-                h: "https://pioneer18.github.io/GardenHub/"
+                t:"React SPA: Natours",
+                h: "https://github.com/Pioneer18/Natours-React"
             }
         }
         return (
