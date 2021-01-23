@@ -41,7 +41,7 @@ export default class Gallery extends React.Component {
             },
             natours: {
                 t:"Natours",
-                h: "https://natours-example.uc.r.appspot.com"
+                h: "https://natours-react-hfo6disbe.vercel.app/"
             }
         }
         return (
