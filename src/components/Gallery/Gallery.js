@@ -47,27 +47,27 @@ export default class Gallery extends React.Component {
         return (
             <Container ref={this.props.gallery} style={{ padding: "0px" }} className="gallery-container">
                 <Row>
-                    <Col style={{ padding: "0px" }} md="6" lg="4">
+                    <Col className="project-col" md="6" lg="4">
                         <Project href={projects.finn.h} link={projects.finn.t} url={img1} />
                     </Col>
 
-                    <Col style={{ padding: "0px"}} md="6" lg="4">
+                    <Col className="project-col" md="6" lg="4">
                         <Project href={projects.natours.h} link={projects.natours.t} url={img2} />
                     </Col>
 
-                    <Col style={{ padding: "0px"}} md="6" lg="4">
+                    <Col className="project-col" md="6" lg="4">
                         <Project href={projects.rent_a_car.h} link={projects.rent_a_car.t} url={img3} />
                     </Col>
 
-                    <Col style={{ padding: "0px"}} md="6" lg="4">
+                    <Col className="project-col" md="6" lg="4">
                         <Project href={projects.bamazon.h} link={projects.bamazon.t}  url={img6} />
                     </Col>
 
-                    <Col style={{ padding: "0px"}} md="6" lg="4">
+                    <Col className="project-col" md="6" lg="4">
                         <Project href={projects.garden_hub.h} link={projects.garden_hub.t}  url={img5} />
                     </Col>
 
-                    <Col style={{ padding: "0px"}} md="6" lg="4">
+                    <Col className="project-col" md="6" lg="4">
                         <Project href={projects.gift.h} link={projects.gift.t}  url={img4} />
                     </Col>
 

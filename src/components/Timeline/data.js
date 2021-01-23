@@ -52,7 +52,7 @@ const data = {
     },
     panel8:{
         title: "Antler Startup Generator",
-        text: "In June of 2020 I joined Antler as an early stage founder in the program to develop a wireless soil-moisture sensor network startup. I successfully demonstrated the sensor's concept with a fpga-board, an oscilloscope, and a custom crafted two-prong soil sensor probe. I documented the early prototypes deveopment and wrote a technical report () to the Antler NY technology leader. I unfortunately did not receive an investment, but it was an excellent learning experience.",
+        text: `In June of 2020 I joined Antler as an early stage founder in the program to develop a wireless soil-moisture sensor network startup. I successfully demonstrated the sensor's concept with a fpga-board, an oscilloscope, and a custom crafted two-prong soil sensor probe. I documented the early prototypes deveopment and wrote a technical report to the Antler NY technology leader. I unfortunately did not receive an investment, but it was an excellent learning experience.`,
         date: "2020 - 2021",
         src: source8
     }
