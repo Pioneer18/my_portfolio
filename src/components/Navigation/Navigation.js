@@ -30,7 +30,6 @@ export default class Navigation extends React.Component {
   }
   render() {
       const brand = {color:"#F0DB4F"}
-      const text = {color:"#fff", padding: "0 1rem"}
       const navBack = {
           backgroundColor: "#000", 
           padding: ".5% 10%",
@@ -40,7 +39,7 @@ export default class Navigation extends React.Component {
     return (
       <React.Fragment>
         <Navbar light style={navBack}  expand="md" sticky="top">
-            <NavbarBrand style={brand} to="/">JS</NavbarBrand>
+            <NavbarBrand id="logo" style={brand} to="/">JS</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav  className="ml-auto" navbar>

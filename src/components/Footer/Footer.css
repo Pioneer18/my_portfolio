@@ -1,0 +1,35 @@
+.footer {
+    background: #000000;
+    margin-top: 15rem;
+    padding: 2.5rem;
+}
+#logo {
+    color: #F0DB4F;
+}
+.footer__contact-list {
+    list-style: none;
+}
+
+.footer__contact-item {
+    display: inline;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.footer__contact-item:not(:last-child) {
+    margin-right: 4.5rem;
+}
+
+.footer__logo-box {
+    background: #000000;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer__link:hover {
+    text-decoration: none;
+    color: inherit;
+}

@@ -3,6 +3,7 @@
     margin:0;
     font-size: 3.2rem;
     font-weight: 400;
+    color: #F0DB4F;
 }
 
 .navbar-toggler{
@@ -17,6 +18,10 @@
 
 .nav-link a {
     color: inherit;
+}
+
+.nav-link:hover {
+    color: #ffffff;
 }
 
 

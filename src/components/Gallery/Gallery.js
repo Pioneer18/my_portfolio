@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Gallery.css";
-import { Container, Row, Col, View, Mask } from 'mdbreact';
+import { Container, Row, Col} from 'mdbreact';
 import img1 from "../../images/rememberThatCharacter.gif"; // remember that
 import img2 from "../../images/natours.gif"; // natours
 import img3 from "../../images/rent-a-car-project-vid.gif"; // rent-a-car
