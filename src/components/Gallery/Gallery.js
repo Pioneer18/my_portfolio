@@ -3,7 +3,7 @@ import "./Gallery.css";
 import { Container, Row, Col, View, Mask } from 'mdbreact';
 import img1 from "../../images/rememberThatCharacter.gif";
 import img2 from "../../images/natours.gif";
-import img3 from "../../images/studying.jpg";
+import img3 from "../../images/rent-a-car-project-vid.gif";
 import img4 from "../../images/adventure_time.gif";
 import img5 from "../../images/ubif_memories.JPG";
 import img6 from "../../images/liri.gif";
@@ -19,29 +19,29 @@ export default class Gallery extends React.Component {
     render() {
         const liri = "https://media.giphy.com/media/kG8biFz9xx0yluJXOd/giphy.gif";
         const projects = {
-            ghub2: {
-                t:"GardenHub 2.1",
-                h: "https://github.com/Pioneer18/garden_hub2.1"
+            rent_a_car: {
+                t:"Rent-A-Car",
+                h: "https://github.com/Pioneer18/Rent-A-Car"
             },
             gift: {
                 t:"Giftastic",
-                h: "https://pioneer18.github.io/Giftastic/"
+                h: "https://pioneer18.github.io/Giftastic"
             },
             finn: {
                 t:"Rember That Character",
-                h: "https://pioneer18.github.io/remember-that-character/"
+                h: "https://pioneer18.github.io/remember-that-character"
             },
             liri: {
-                t:"Liri",
-                h: "https://github.com/Pioneer18/liri-node-app"
+                t:"Bamazon",
+                h: "https://github.com/Pioneer18/Bamazon--CLI-app"
             },
             scrape: {
-                t:"Aljazeera Scraper",
-                h: "https://github.com/Pioneer18/aljazeera-scraper"
+                t:"Garden Hub",
+                h: "https://github.com/Pioneer18/garden_hub2.1"
             },
             natours: {
                 t:"Natours",
-                h: "https://natours-example.uc.r.appspot.com/"
+                h: "https://natours-example.uc.r.appspot.com"
             }
         }
         return (
@@ -56,7 +56,7 @@ export default class Gallery extends React.Component {
                     </Col>
 
                     <Col style={{ padding: "0px"}} md="6" lg="4">
-                        <Project href={projects.ghub2.h} link={projects.ghub2.t} url={img3} />
+                        <Project href={projects.rent_a_car.h} link={projects.rent_a_car.t} url={img3} />
                     </Col>
 
                     <Col style={{ padding: "0px"}} md="6" lg="4">
