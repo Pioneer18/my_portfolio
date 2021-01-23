@@ -12,33 +12,34 @@
     font-weight: 650;
     color: #fff;
     font-size:150%;
-    
 }
 
- .work-button span {
+ .work-button a {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
+    color: inherit;
   }
   
-  .work-button span:after {
+  .work-button a:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.5s;
+    color: inherit;
   }
   
-  .work-button:hover span {
+  .work-button:hover a {
     padding-right: 25px;
     color:#F0DB4F;
     text-shadow: 1px 1px 1px #666,
                        3px 3px 4px black;
   }
   
-  .work-button:hover span:after {
+  .work-button:hover a:after {
     opacity: 1;
     right: 0;
   }

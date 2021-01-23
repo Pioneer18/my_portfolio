@@ -45,16 +45,16 @@ export default class Navigation extends React.Component {
             <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav  className="ml-auto" navbar>
                 <NavItem>
-                    <NavLink onClick={this.props.scrollToAboutMe} style={text} to="#">About Me</NavLink>
+                    <a className="nav-link" href="#aboutme">About Me</a>
                 </NavItem>
                 <NavItem>
-                    <NavLink onClick={this.props.scrollToMyJourney} style={text} to="#">My Journey</NavLink>
+                    <a className="nav-link" href="#myjourney">My Journey</a>
                 </NavItem>
                 <NavItem>
-                    <NavLink onClick={this.props.scrollToProjects} style={text} to="#">Projects</NavLink>
+                    <a className="nav-link" href="#projects">Projects</a>
                 </NavItem>
                 <NavItem>
-                    <NavLink style={text} to="#">Contact</NavLink>
+                    <a className="nav-link" href="">Contact</a>
                 </NavItem>
                 </Nav>
             </Collapse>

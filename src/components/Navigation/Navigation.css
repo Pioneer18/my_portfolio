@@ -11,6 +11,12 @@
 
 .nav-link {
     font-size: 1.5rem;
+    color: #ffffff;
+    padding: "0 1rem";
+}
+
+.nav-link a {
+    color: inherit;
 }
 
 

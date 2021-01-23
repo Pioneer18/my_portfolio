@@ -14,52 +14,17 @@ class App extends Component {
     this.myRef = React.createRef();
   }
 
-  scrollToProjects = event => {
-    event.preventDefault();
-    console.log("button clicked yo");
-    window.scrollTo(0, 5000, {
-      behavior: "smooth"
-    });
-  };
-
-  scrollToMyJourney = event => {
-    event.preventDefault();
-    console.log("button clicked yo");
-    window.scrollTo(0, 1700, {
-      behavior: "smooth"
-    });
-  };
-
-  scrollToAboutMe = event => {
-    event.preventDefault();
-    console.log("button clicked yo");
-    window.scrollTo(0, 920, {
-      behavior: "smooth"
-    });
-  };
-
-  scrollToContactMe = event => {
-    event.preventDefault();
-    console.log("button clicked yo");
-    window.scrollTo(0, 5000, {
-      behavior: "smooth"
-    });
-  };
-
   render() {
     return (
       <div className="App">
         <React.Fragment>
           <Parallax scrollToProjects={this.scrollToProjects} />
-          <Navigation 
-            scrollToMyJourney={this.scrollToMyJourney}
-            scrollToAboutMe={this.scrollToAboutMe}
-            scrollToProjects={this.scrollToProjects}/>
-          <SectionDivider divider={"About Me"} />
+          <Navigation />
+          <SectionDivider id={"aboutme"} divider={"About Me"} />
           <AboutMe />
-          <SectionDivider divider={"My Journey"} />
+          <SectionDivider id={"myjourney"} divider={"My Journey"} />
           <Timeline />
-          <SectionDivider divider={"My Projects"} />
+          <SectionDivider id={"projects"} divider={"My Projects"} />
           <Gallery gallery={this.myRef} />
           <SectionDivider divider={"Contact Me"} />
         </React.Fragment>
