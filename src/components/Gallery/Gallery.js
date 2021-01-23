@@ -1,14 +1,14 @@
 import React from 'react';
 import "./Gallery.css";
 import { Container, Row, Col, View, Mask } from 'mdbreact';
-import img1 from "../../images/rememberThatCharacter.gif";
-import img2 from "../../images/natours.gif";
-import img3 from "../../images/rent-a-car-project-vid.gif";
-import img4 from "../../images/adventure_time.gif";
-import img5 from "../../images/ubif_memories.JPG";
-import img6 from "../../images/liri.gif";
+import img1 from "../../images/rememberThatCharacter.gif"; // remember that
+import img2 from "../../images/natours.gif"; // natours
+import img3 from "../../images/rent-a-car-project-vid.gif"; // rent-a-car
+import img4 from "../../images/adventure_time.gif"; // giftastic
+import img5 from "../../images/Screenshot(48).png"; // gardenhub
+// import img6 from "../../images/liri.gif";
 import Project from "./Project";
-
+const img6 = 'https://giphy.com/gifs/2UHfbd4EvILHHbRty1' // bamazon
 
 export default class Gallery extends React.Component {
     constructor(props){
@@ -17,7 +17,6 @@ export default class Gallery extends React.Component {
 
 
     render() {
-        const liri = "https://media.giphy.com/media/kG8biFz9xx0yluJXOd/giphy.gif";
         const projects = {
             rent_a_car: {
                 t:"Rent-A-Car",
@@ -31,11 +30,12 @@ export default class Gallery extends React.Component {
                 t:"Rember That Character",
                 h: "https://pioneer18.github.io/remember-that-character"
             },
-            liri: {
+            bamazon: {
                 t:"Bamazon",
                 h: "https://github.com/Pioneer18/Bamazon--CLI-app"
+                
             },
-            scrape: {
+            garden_hub: {
                 t:"Garden Hub",
                 h: "https://github.com/Pioneer18/garden_hub2.1"
             },
@@ -60,11 +60,11 @@ export default class Gallery extends React.Component {
                     </Col>
 
                     <Col style={{ padding: "0px"}} md="6" lg="4">
-                        <Project href={projects.liri.h} link={projects.liri.t}  url={img6} />
+                        <Project href={projects.bamazon.h} link={projects.bamazon.t}  url={img6} />
                     </Col>
 
                     <Col style={{ padding: "0px"}} md="6" lg="4">
-                        <Project href={projects.scrape.h} link={projects.scrape.t}  url={img5} />
+                        <Project href={projects.garden_hub.h} link={projects.garden_hub.t}  url={img5} />
                     </Col>
 
                     <Col style={{ padding: "0px"}} md="6" lg="4">
