@@ -6,7 +6,7 @@ import img2 from "../../images/natours.gif"; // natours
 import img3 from "../../images/rent-a-car-project-vid.gif"; // rent-a-car
 import img4 from "../../images/adventure_time.gif"; // giftastic
 import img5 from "../../images/garden_hub_dash.png"; // gardenhub
-import img6 from "../../images/liri.gif";
+//import img6 from "../../images/liri.gif";
 import Project from "./Project";
 const img6 = "https://media.giphy.com/media/2UHfbd4EvILHHbRty1/giphy.gif" // bamazon
 
