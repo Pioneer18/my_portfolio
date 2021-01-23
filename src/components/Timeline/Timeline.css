@@ -8,7 +8,7 @@
 .timeline-body p {
     font-size: 1.92rem;
     clear: left;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto Slab', 'Ubuntu', serif, sans-serif, 'Source Sans Pro', sans-serif;
 }
 
 .timeline {
@@ -125,7 +125,7 @@
 }
 .timeline-heading h4 {
     color: #000;
-    font-family: 'Raleway', serif;
+    font-family: 'Ubuntu', serif, sans-serif;
     font-size: 2.72rem; 
     font-weight: 800; 
     line-height: 3.2rem; 

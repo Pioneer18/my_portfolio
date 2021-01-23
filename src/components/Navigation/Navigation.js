@@ -53,7 +53,7 @@ export default class Navigation extends React.Component {
                     <a className="nav-link" href="#projects">Projects</a>
                 </NavItem>
                 <NavItem>
-                    <a className="nav-link" href="">Contact</a>
+                    <a className="nav-link" href="#footer">Contact</a>
                 </NavItem>
                 </Nav>
             </Collapse>

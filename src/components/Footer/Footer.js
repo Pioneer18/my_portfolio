@@ -4,7 +4,7 @@ import { NavbarBrand} from 'mdbreact';
 
 const Footer = props => {
     return (
-        <footer className="footer">
+        <footer id="footer" className="footer">
             <div className="footer__logo-box">
                 <NavbarBrand id="logo">
                     JS
