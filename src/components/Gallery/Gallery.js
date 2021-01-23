@@ -45,7 +45,7 @@ export default class Gallery extends React.Component {
             }
         }
         return (
-            <Container ref={this.props.gallery} style={{ padding: "0px" }} className="gallery-container">
+            <Container ref={this.props.gallery} style={{ padding: "0px" }} className="gallery-container" id="projects">
                 <Row>
                     <Col style={{ padding: "0px" }} md="6" lg="4">
                         <Project href={projects.finn.h} link={projects.finn.t} url={img1} />
