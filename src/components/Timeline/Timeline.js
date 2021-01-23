@@ -24,6 +24,8 @@ class Timeline extends React.Component {
                     <ItemLeft imgSrc={data.panel4.src} title={data.panel4.title} text={data.panel4.text} date={data.panel4.date} />
                     <Item imgSrc={data.panel5.src} title={data.panel5.title} text={data.panel5.text} date={data.panel5.date}/>
                     <ItemLeft imgSrc={data.panel6.src} title={data.panel6.title} text={data.panel6.text} date={data.panel6.date}/>
+                    <Item imgSrc={data.panel7.src} title={data.panel7.title} text={data.panel7.text} date={data.panel7.date}></Item>
+                    <ItemLeft imgSrc={data.panel8.src} title={data.panel8.title} text={data.panel8.text} date={data.panel8.date}></ItemLeft>
                     <li class="clearfix no-float"></li>
                 </ul>
             </Container>
