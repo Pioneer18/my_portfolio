@@ -20,7 +20,7 @@ export default class Gallery extends React.Component {
         const projects = {
             rent_a_car: {
                 t:"Rent-A-Car",
-                h: "https://github.com/Pioneer18/Rent-A-Car"
+                h: "https://github.com/Pioneer18/Rent-A-Car/wiki/Rent-A-Car-Quickstart-Tutorial"
             },
             gift: {
                 t:"Giftastic",

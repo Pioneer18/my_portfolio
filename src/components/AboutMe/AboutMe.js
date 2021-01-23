@@ -19,7 +19,7 @@ const AboutMe = props => (
             </Row>
             <Row>
                 <Col className="about-p">
-                    <p>I am passionate about web design &amp; creating IoT web applications and systems. Like many developers, I gained my foundational skills by obsessively tinkering with microcontrollers for hours in my garage. In order to springboard my skills beyond the level of a DIY hacker I received an AS in Engineering Technology at Hillsborough Community College, and earned a full-stack web developer certification from the Trilogy Education Services’ Coding Boot Camp at the University of Central Florida.</p>
+                    <p>Experienced Full Stack Developer with a demonstrated history of working in the hospital &amp; health care industry. Skilled in TypeScript/JavaScript, NodeJS, ReactJS, AngularJS, MongoDB, AWS, and Google Cloud Platform. </p>
                 </Col>
             </Row>
         </Container>
