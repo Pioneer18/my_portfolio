@@ -3,12 +3,12 @@
     flex-direction:column;
     justify-content: center;    
     align-items: center;
-    padding:1rem 2rem 1rem 1.5rem;
-    border: 2px solid white;
+    padding:1.6rem 3.2rem 1.6rem 2.4rem;
+    border: .2rem solid white;
     cursor: pointer;
-    margin-top:20px;
-    box-shadow: 1px 1px 1px #666,
-    3px 3px 8px black;
+    margin-top:2.0rem;
+    box-shadow: .1rem .1rem .1rem #666,
+    .3rem .3rem .8rem black;
     font-weight: 650;
     color: #fff;
     font-size:150%;
@@ -27,16 +27,16 @@
     position: absolute;
     opacity: 0;
     top: 0;
-    right: -20px;
+    right: -2.0rem;
     transition: 0.5s;
     color: inherit;
   }
   
   .work-button:hover a {
-    padding-right: 25px;
+    padding-right: 2.5rem;
     color:#F0DB4F;
-    text-shadow: 1px 1px 1px #666,
-                       3px 3px 4px black;
+    text-shadow: .1rem .1rem .1rem #666,
+                       .3rem .3rem .4rem black;
   }
   
   .work-button:hover a:after {

@@ -1,19 +1,19 @@
 .time-container{
     background: #fff;
-    margin:0px auto;
+    margin:0rem auto;
     padding: 0rem;
     width:100%;
 }
 
 .timeline-body p {
-    font-size:1.2rem;
-    clear:left;
+    font-size: 1.92rem;
+    clear: left;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 .timeline {
     list-style: none;
-    padding: 10px 0;
+    padding: 1rem 0rem;
     position: relative;
     font-weight: 300;
 }
@@ -22,13 +22,13 @@
     bottom:0;
     position: absolute;
     content:" ";
-    width: 2px;
+    width: .2rem;
     background: #000;
     left: 50%;
-    margin-left: -1.5px;
+    margin-left: -.15rem;
 }
 .timeline > li {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     position: relative;
     width: 50%;
     float: left;
@@ -49,9 +49,9 @@
     clear: both;
 }
 .timeline > li > .timeline-panel {
-    width: calc(100% - 25px);
-    width: -moz-calc(100% - 25px);
-    width: -webkit-calc(100% - 25px);
+    width: calc(100% - 2.5rem);
+    width: -moz-calc(100% - 2.5rem);
+    width: -webkit-calc(100% - 2.5rem);
     float: left;
     border: 1px solid #dcdcdc;
     background: #ffffff;
@@ -59,56 +59,56 @@
 }
 .timeline > li > .timeline-panel:before {
     position: absolute;
-    top: 26px;
-    right: -15px;
+    top: 2.6rem;
+    right: -1.5rem;
     display: inline-block;
-    border-top: 15px solid transparent;
-    border-left: 15px solid #dcdcdc;
+    border-top: 1.5rem solid transparent;
+    border-left: 1.5rem solid #dcdcdc;
     border-right: 0 solid #dcdcdc;
-    border-bottom: 15px solid transparent;
+    border-bottom: 1.5rem solid transparent;
     content:" ";
 }
 .timeline > li > .timeline-panel:after {
     position: absolute;
-    top: 27px;
-    right: -14px;
+    top: 2.7rem;
+    right: -1.4rem;
     display: inline-block;
-    border-top: 14px solid transparent;
-    border-left: 14px solid #ffffff;
+    border-top: 1.4rem solid transparent;
+    border-left: 1.4rem solid #ffffff;
     border-right: 0 solid #ffffff;
-    border-bottom: 14px solid transparent;
+    border-bottom: 1.4rem solid transparent;
     content:" ";
 }
 .timeline > li > .timeline-badge {
     color: #ffffff;
-    width: 24px;
-    height: 24px;
-    line-height: 50px;
+    width: 2.4rem;
+    height: 2.4rem;
+    line-height: 5rem;
     text-align: center;
     position: absolute;
-    top: 16px;
-    right: -12px;
+    top: 1.6rem;
+    right: -1.2rem;
     z-index: 100;
 }
 .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
-    box-shadow: -8px 12px 18px #888888;
+    box-shadow: -.8rem 1.2rem 1.8rem #888888;
 }
 .timeline > li.timeline-inverted > .timeline-panel:before {
     border-left-width: 0;
-    border-right-width: 15px;
-    left: -15px;
+    border-right-width: 1.5rem;
+    left: -1.5rem;
     right: auto;
 }
 .timeline > li.timeline-inverted > .timeline-panel:after {
     border-left-width: 0;
-    border-right-width: 14px;
-    left: -14px;
+    border-right-width: 1.4rem;
+    left: -1.4rem;
     right: auto;
 }
 .timeline-panel {
-    box-shadow: 8px 12px 18px #888888;
-    border-radius: 10px;
+    box-shadow: .8rem 1.2rem 1.8rem #888888;
+    border-radius: 1rem;
 }
 .timeline-badge > a {
     color: #000000 !important;
@@ -126,22 +126,22 @@
 .timeline-heading h4 {
     color: #000;
     font-family: 'Raleway', serif;
-    font-size: 1.7rem; 
+    font-size: 2.72rem; 
     font-weight: 800; 
-    line-height: 2rem; 
-    margin: 0 0 1.5rem; 
+    line-height: 3.2rem; 
+    margin: 0rem 0rem 2.4rem; 
     text-align: center; 
     text-transform: uppercase; 
 }
 .timeline-body > p, .timeline-body > ul {
-    padding: 10px 15px;
+    padding: 1rem 1.5rem;
     margin-bottom: 0;
 }
 .timeline-footer {
     /*color:#4679bd;*/
     color:#000000;
     clear:both;
-    padding: 5px 15px;
+    padding: .5rem 1.5rem;
     background-color:#e0e2e4;
     font-size:1.5rem;
 }
@@ -159,11 +159,11 @@
 }
 /*staggers the events on the timeline*/
 .timeline > li:nth-child(2) {
-    margin-top: 60px;
+    margin-top: 6rem;
 }
 /*keeps inverted panel's dots on the timeline*/
 .timeline > li.timeline-inverted > .timeline-badge {
-    left: -12px;
+    left: -1.2rem;
 }
 /*enables the time line to render*/
 .no-float {
@@ -173,65 +173,65 @@
     float:left;
     height:auto;
     width:90%;
-    min-width: 170px;
+    min-width: 17rem;
 }
 .study_img{
     float:left;
-    margin-left:1.2rem;
+    margin-left:1.92rem;
     height:auto;
     width:70%;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 99rem) {
     .time-container{
-        padding:5px;
+        padding:.5rem;
     }    
     ul.timeline:before {
-        left: 0px;
+        left: 0rem;
     }
     ul.timeline > li {
-        margin-bottom: 0px;
+        margin-bottom: 0rem;
         position: relative;
         width:100%;
         float: left;
         clear: left;
     }
     ul.timeline > li > .timeline-panel {
-        width: calc(100% - 65px);
-        width: -moz-calc(100% - 65px);
-        width: -webkit-calc(100% - 65px);
+        width: calc(100% - 6.5rem);
+        width: -moz-calc(100% - 6.5rem);
+        width: -webkit-calc(100% - 6.5rem);
     }
     ul.timeline > li > .timeline-badge {
-        left: 5px;
+        left: .5rem;
         margin-left: 0;
-        top: 16px;
+        top: 1.6rem;
     }
     ul.timeline > li > .timeline-panel {
         float: right;
         margin-right:1rem;
-        box-shadow: -8px 12px 18px #888888;
+        box-shadow: -.8rem 1.2rem 1.8rem #888888;
     }
     ul.timeline > li > .timeline-panel:before {
         border-left-width: 0;
-        border-right-width: 15px;
-        left: -15px;
+        border-right-width: 1.5rem;
+        left: -1.5rem;
         right: auto;
     }
     ul.timeline > li > .timeline-panel:after {
         border-left-width: 0;
-        border-right-width: 14px;
-        left: -14px;
+        border-right-width: 1.4rem;
+        left: -1.4rem;
         right: auto;
     }
     .timeline > li.timeline-inverted {
         float: left;
         clear: left;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 3.0rem;
+        margin-bottom: 3.0rem;
     }
     
     .timeline > li.timeline-inverted > .timeline-badge {
-        left: 5px;
+        left: .5rem;
     }
     .timeline-img img{
         height: auto;
