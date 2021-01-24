@@ -13,6 +13,7 @@
     font-weight: 650;
     color: #fff;
     font-size: 2rem;
+    border-radius: 3rem;
 }
 
  .work-button a {
@@ -38,6 +39,7 @@
     color:#F0DB4F;
     text-shadow: .1rem .1rem .1rem #666,
                        .3rem .3rem .4rem black;
+    text-decoration: none;
   }
   
   .work-button:hover a:after {

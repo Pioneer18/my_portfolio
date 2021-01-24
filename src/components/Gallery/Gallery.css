@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
+    border-radius: .85rem;
 }
 
 .project-link{
@@ -25,6 +26,7 @@
 }
   
 .overlay {
+  border-radius: .85rem;
   position: absolute;
   bottom: 100%;
   left: 0;
@@ -40,6 +42,7 @@
 .text{
   padding: 1rem;
   border:.5rem solid white;
+  border-radius: .85rem;
 }
 
 .project:hover .overlay {
