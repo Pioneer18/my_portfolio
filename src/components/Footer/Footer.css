@@ -28,6 +28,8 @@
 .footer__link {
     text-decoration: none;
     color: inherit;
+    font-family: "Ubuntu", serif, sans-serif;
+    margin-right: .5rem;
 }
 
 .footer__link:hover {

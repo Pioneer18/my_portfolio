@@ -19,6 +19,7 @@ export default Project;
 
 import React from 'react';
 import { Animation } from 'mdbreact';
+import '../Gallery.css';
 const Project = props => (
     <Animation reveal type="fadeIn" duration="2s">
         <div style={{background:`url(${props.url})`, backgroundPosition:`center`, backgroundSize:`cover`, backgroundRepeat: `no-repeat`}} className="project">
