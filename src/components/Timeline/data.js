@@ -10,7 +10,7 @@ import source8 from "../../images/soil_moisture_sensor.jpg";
 const data = {
     panel1:{
         title: "WASHINGTON & LEE UNIVERSITY",
-        text: "I was not always a tech person, In fact I daul majored in international politics & Japanese Language and Literature. However, by my senior year, I decided against pursuing a political career and began searching for other possible career paths. During my final semester of college I took an introduction to Python course and found that I am far more interested in technology than politics.",
+        text: "I was not always a tech person, In fact I dual majored in international politics & Japanese Language and Literature. However, by my senior year, I decided against pursuing a political career and began searching for other possible career paths. During my final semester of college I took an introduction to Python course and found that I am far more interested in technology than politics.",
         date: "2010 - 2014",
         src: source
     },
@@ -22,7 +22,7 @@ const data = {
     },
     panel3:{
         title: "UBREAKIFIX, ARDUINOS, & MY PARENTS' GARAGE",
-        text: "On November 10th, 2015 I made my final decision to not work another year in Japan, but to instead return home and help my brother with his Ubreakifix repair shops. The opportunity to work with my brother as well as learn the ins and outs of repairing electronics was too good to pass, it seemed like a nice bridge into a tech career. Eager to put my Python Coding skills to the test, I began programming some 'hello world' arduino circuits as well as designing a few projects of my own. Soon I was so invested in testing my new ideas that I used a portion of the money I saved working in Japan to wall off a third of my parents’ garage, which built a small workshop for projects.",
+        text: "On November 10th, 2015 I made my final decision to not work another year in Japan, but to instead return home and help my brother with his Ubreakifix repair shops. The opportunity to work with my brother as well as learn the ins and outs of repairing electronics was too good to pass, it seemed like a nice bridge into a tech career. Eager to put my Python Coding skills to the test, I began programming some 'hello world' arduino circuits as well as designing a few projects of my own. I was so invested in testing my new ideas that I actually walled off a third of my parents’ garage, which built a small workshop for projects.",
         date: "2015 - 2018",
         src: source6
     },
