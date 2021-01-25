@@ -8,13 +8,14 @@ import {
 } from 'mdbreact';
 
 import source from "../../images/nippon-profile.jpg";
+import headshot from "../../images/jon-head-shot.jpg";
 
 const AboutMe = props => (
     <Animation reveal type="fadeIn">
         <Container className="about-container">
             <Row center>
                 <Col sm="7">
-                    <img className="pro-img" src={source} alt="profile-pic" />
+                    <img className="pro-img" src={headshot} alt="profile-pic" />
                 </Col>
             </Row>
             <Row>
